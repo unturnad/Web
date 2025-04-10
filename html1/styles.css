@@ -1,0 +1,99 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.foot-text
+{ 
+    float: right;
+    font-weight: none;
+    text-align: end;
+    font-size: 1.2em;
+    color: black;
+    font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 25px;
+}
+header
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+#button_menu{
+    display: flex;
+    width: 65%;
+    justify-content: space-evenly;
+    align-items: normal;
+    color: #149d2f;
+}
+.button
+{
+    font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
+}
+#photo
+{
+    width: 100%;
+    height: 825px;
+    display: flex;
+    justify-content: center;
+}
+#text-container
+{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: aliceblue;
+    padding-bottom: 80px;
+}
+#text-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#text
+{
+    text-align: center;
+    line-height: 30px;
+    width: 80%;
+    font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+.photo
+{
+    width: 100%;
+    height: 100%;
+}
+footer
+{
+    padding-top: 15px;
+    height: 80px;
+}
+#button_gs
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color:rgb(5, 214, 155);
+    border-radius: 5px;
+}
+.button_gs
+{
+    font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
