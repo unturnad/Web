@@ -230,9 +230,9 @@ ul
 }
 .footer-button-item:hover
 {
-    background-color: rgba(181, 187, 190, 0.919);;
+    color: rgba(30, 162, 229, 0.919);;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
+    text-decoration:underline
 }
 .footer-text
 {
