@@ -2,7 +2,6 @@ let num1 = "";
     let num2 = "";
     let isValid = false;
 
-    // Повторний запит чисел до коректного введення
     while (!isValid) {
       num1 = prompt("Enter the first number:", num1);
       num2 = prompt("Enter the second number:", num2);
@@ -27,16 +26,13 @@ let num1 = "";
     const a = Number(num1);
     const b = Number(num2);
 
-    // Отримуємо операцію
     let operation = prompt("Enter the operation (+, -, *, /):", "+");
 
-    // Перевірка операції
     while (!["+", "-", "*", "/"].includes(operation)) {
       alert("Invalid operation. Please enter one of +, -, *, /");
       operation = prompt("Enter the operation (+, -, *, /):", operation);
     }
 
-    // Функція виконання математичної операції
     const calculate = (x, y, op) => {
       switch (op) {
         case "+":
