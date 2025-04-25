@@ -2,7 +2,6 @@ function createNewUser() {
     let firstName = prompt("Enter your first name:");
     let lastName = prompt("Enter your last name:");
 
-    // Видаляємо зайві пробіли та нормалізуємо ім'я
     firstName = firstName.trim();
     lastName = lastName.trim();
 
@@ -26,8 +25,6 @@ function createNewUser() {
     return newUser;
   }
 
-  // Створюємо користувача
   const user = createNewUser();
 
-  // Виводимо логін
   console.log("User login:", user.getLogin());
