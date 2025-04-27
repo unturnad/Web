@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .green-border {
+    border: 2px solid green;
+  }
+
+  .red-border {
+    border: 2px solid red;
+  }
+
+  .green-text {
+    color: green;
+  }
+
+  .message {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+  }
+
+  .price-info {
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 12px; /* Закруглення кутів */
+    display: inline-block;
+  }
+
+  .close-btn {
+    margin-left: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    font-weight: bold;
+  }
